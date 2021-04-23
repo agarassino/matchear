@@ -7,5 +7,8 @@ use Illuminate\Http\Request;
 
 class ActivitiesController extends Controller
 {
-    //
+    function index() {
+
+        return view('admin/activities/index');
+    }
 }
